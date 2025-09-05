@@ -155,11 +155,6 @@ ul li a:hover{
     padding-left: 20px;
     font-family: "Inter", sans-serif;
     letter-spacing: 1.2px;
-    padding-top: 20px;flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 350px;
-    padding-right: 0px;
+    padding-top: 20px;
 }
 
