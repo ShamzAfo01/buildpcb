@@ -113,3 +113,8 @@ function Square ({ value, onSquareClick }) {
     }
     return null;
     }
+
+export default function App() {
+return <Game />;
+}   
+
