@@ -1,11 +1,12 @@
-
+/* Reset default margin and padding for all elements */
+* {
     margin: 0;
     padding: 0;
 }
 
 .main {
     width: 100%;
-    background-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -18,4 +19,5 @@
     align-items: center;
     padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
 }
