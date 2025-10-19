@@ -1,33 +1,111 @@
-<<<<<<< HEAD
 /* Reset default margin and padding for all elements */
-=======
-
-
->>>>>>> 645f9b42fa7c5d658f8c2eb050af0d27f340bdbf
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .main {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    font-family: "Inter", sans-serif;
 }
- 
+
 .navbar {
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.8);
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    color: #2a2a2a;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu {
+    flex: 1;
     display: flex;
     align-items: center;
-    padding: 0 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
 }
-=======
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 60px;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #0038df;
+}
+
+.search {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 200px;
+    height: 30px;
+    border: 0.5px solid #999;
+    background: #d1d1d1;
+    border-radius: 100px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.search button {
+    height: 30px;
+    width: 80px;
+    background: #888;
+    color: #fff;
+    border: 1px solid #001556;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.search button:hover {
+    background: #0038df;
+    color: #fff;
+    border: 1px solid #01185e;
+}
 main{
     width: 100%;
     background: linear-gradient(to top, (#f0f0f0)50%, (#0038df)50%) url(1.jpg)
@@ -144,4 +222,4 @@ ul li a:hover{
     color: #fff;
     border: 1px solid #01185e;
 }
->>>>>>> 645f9b42fa7c5d658f8c2eb050af0d27f340bdbf
+
