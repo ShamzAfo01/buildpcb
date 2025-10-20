@@ -95,11 +95,13 @@ ter
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
-  .plan.popular {
+  /* .plan.popular {
     position: relative;
     border: 2px solid #0038df;
     border-top-width: 36px;
     transform: scale(1.05);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
   }
 
   .plan.popular:before {
@@ -116,7 +118,7 @@ ter
     font-weight: 100;
     text-transform: lowercase;
     letter-spacing: 0.5px;
-  }
+  }  */
   
   .plan h2 {
     font-size: 1.5rem;
