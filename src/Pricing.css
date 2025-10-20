@@ -98,14 +98,14 @@ ter
   .plan.popular {
     position: relative;
     border: 2px solid #0038df;
-    border-top-width: 24px;
+    border-top-width: 36px;
     transform: scale(1.05);
   }
 
   .plan.popular:before {
     content: "most popular";
     position: absolute;
-    top: -24px;
+    top: -36px;
     left: 12px;
     transform: none;
     background-color: #0038df;
